@@ -1,0 +1,151 @@
+body {
+    font-family: "Trirong", serif;
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+    background: url('');
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 30%;
+    /* padding: px;
+    margin-top: 2px;
+    margin-bottom: 5px; */
+}
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+.left img {
+   margin-left: 90px;
+    width: 250px;
+    height: 90px;
+    /* filter: invert(100%); */
+    /* border-radius: 100px; */
+}
+
+.left div {
+    margin-left: 50px;
+    line-height: px;
+    font-size: 26px;
+    text-align: center;
+}
+.mid {
+    display: inline-block;
+    /* width: 50%; */
+
+    /* border: 2px solid green; */
+    margin-top: 15px;
+    margin-left: 450px;
+}
+.mid img {
+    margin-left: 90px;
+        width: 200px;
+        /* filter: invert(100%); */
+        /* border-radius: 100px; */
+    }
+    .mid div {
+        margin-left: 50px;
+        line-height: px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .midright {
+        display:inline-block;
+        /* width: 50%; */
+        /* border: 2px solid green; */
+        margin-top: 30px;
+        margin-left: 80px;}
+.midright img {
+    margin-left: 90px;
+        width: 200px;
+        /* filter: invert(100%); */
+        /* border-radius: 100px; */
+    }
+.right {
+    position: absolute;
+    right: 34px;
+    top: 60px;
+    display: inline-block;
+    /* border: 1px solid yellow; */
+}
+.navbar {
+    display: block;
+  background-color: blue;
+  margin-top: 4px;
+  /* position: absolute; */
+}
+.navbar li {
+    display: inline-block;
+    padding-left: 60px;
+    margin: 5px;
+    
+    right: 34px;
+    top: 43px;
+    
+    /* border: 1px solid yellow; */
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: whitesmoke ;
+    text-decoration: none;
+    padding: 20px 23px;
+
+}
+.navbar li a:hover,
+.navbar li a.active {
+    /* text-decoration: underline; */
+    color: red;
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+.main_ctc{
+    background: url('sushil-ghimire-5UbIqV58CW8-unsplash.jpg');
+}
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
